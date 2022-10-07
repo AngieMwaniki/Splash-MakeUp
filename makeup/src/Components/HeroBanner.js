@@ -1,6 +1,6 @@
 import React from 'react'
 import{Box, Stack, Typography ,Button} from '@mui/material';
-import banner from '../assets/images/banner.jpg'
+import HeroBannerImage from '../assets/images/banner.jpg'
 const HeroBanner = () => {
   return (
     <Box sx={{
@@ -20,7 +20,7 @@ const HeroBanner = () => {
             Pamper yourself with the most effective makeup products.
         </Typography>
     <Button  variant="contained" color="error" href="#exercises"  >Explore Products</Button>
-    <img src ={banner} alt="bannere" className='hero-banner-img' />
+    <img src = {HeroBannerImage} alt="bannere" className='hero-banner-img' />
     </Box>
   )
 }
