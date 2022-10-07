@@ -1,8 +1,16 @@
- import React from 'react'
+ import React, {useState} from 'react'
+ import {Box} from '@mui/material'
+ import HeroBanner from '../Components/HeroBanner'
+ import SearchProducts from '../Components/SearchProducts'
+ import Products from '../Components/Products'
  
- function Home() {
+ const Home =() => {
    return (
-     <div>Home</div>
+     <Box>
+      <HeroBanner />
+      <SearchProducts/>
+      <Products/>
+     </Box>
    )
  }
  

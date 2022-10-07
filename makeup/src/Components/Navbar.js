@@ -9,7 +9,7 @@ const Navbar = () => {
     <Stack 
     direction="row"
     justifyContent="space-around"
-    justifyContent="none" >
+     px="20px" >
     <Link to ="/">
     <img src={Logo}  alt="logo" style={{width:'48px',height:'48px',margin:'0 20px'}}/>
     </Link>
