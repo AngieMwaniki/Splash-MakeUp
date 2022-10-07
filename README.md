@@ -1,5 +1,5 @@
 # Splash-MakeUp
-About The Project Project Name FitPro gym
+About The Project Project Name Splash MakeUp.
 
 Authors Name Angela Muthon Mwaniki
 
