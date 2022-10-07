@@ -10,7 +10,7 @@ const SearchProducts = () => {
  const handleSearch = async() => {
     if (search) {
         const productsData = await fetchData
-        ('https://sephora.p.rapidapi.com/auto-complete', productsOptions);
+        ('https://sephora.p.rapidapi.com/products/list', productsOptions);
         console.log(productsData)
     }
  }
