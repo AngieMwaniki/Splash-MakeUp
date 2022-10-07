@@ -8,6 +8,7 @@ Table of contents General info Technologies Setup contact
 General info This project is an online store for the Splash MakeUP, which gives people a platform to browse for makeup products that are best suited for them.The page also has a description of some of the products, a contact form, and an additional form that allows users to sign up for splash makeup newsletter to receive notifications of any interesting makeup product bargains or offers. This facilitates communication with both customers and seller.
 
 Technologies Project is created with:
+
 -React js- used to build the structure of the pages.
 - HTML - Is used to build the structure of the pages.
 - CSS - Is used to style the pages
