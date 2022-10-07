@@ -1,9 +1,8 @@
 export const productsOptions = {
-    method: 'GET',
-  url: 'https://sephora.p.rapidapi.com/auto-complete',
+  method: 'GET',
   params: {q: 'eyeshadows'},
   headers: {
-    'X-RapidAPI-Key':process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Key': '4e79a367e3mshed9fbc3d6000ff3p1251f9jsn51bc17e5f2d5',
     'X-RapidAPI-Host': 'sephora.p.rapidapi.com'
   }
 };
