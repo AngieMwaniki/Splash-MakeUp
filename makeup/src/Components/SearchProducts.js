@@ -10,8 +10,11 @@ const SearchProducts = () => {
         <Typography fontWeight={700} textAlign="center">
             Awesome Products You <br/> should know
         </Typography>
-    <Box>
-        
+    <Box position="relative"  mb="72px" >
+       <TextField height="76px"
+       value=""
+       onChange={(e)=> {}}
+       />
     </Box>
 
     </Stack>
