@@ -1,10 +1,20 @@
-import { Typography } from '@mui/material'
-import { borderRadius, Stack } from '@mui/system';
-import React from 'react'
+import {Stack,Typography } from '@mui/material'
+import React, {useEffect, useState} from 'react';
 import {Box, Button, TextField} from '@mui/material';
+import {productsOptions,fetchData} from '../utilities/fetchData';
+
 
 const SearchProducts = () => {
-  return (
+ const [search, setSearch] = useState('')
+
+ const handleSearch = async() => {
+    if (search) {
+        const productsData = await fetchData
+        ('https://sephora.p.rapidapi.com/auto-complete', productsOptions);
+        console.log(productsData)
+    }
+ }
+    return (
     <Stack alignItems='center' mt="37px"
     justifyContent="center" p="20px">
         <Typography fontWeight={700} textAlign="center">
@@ -21,8 +31,8 @@ const SearchProducts = () => {
     borderRadius: '40PX'
     }}
        height="76px"
-       value=""
-       onChange={(e)=> {}}
+       value={search}
+       onChange={(e)=>  setSearch (e.target.value.toLowerCase())}
        placeholder="Search Products" type="text"
        />
     </Box>
@@ -34,7 +44,9 @@ sx={{
     width:{lg:'175px', xs: '80px'},
     fontSize:{lg:'20px', xs:'14px'},
     height: '56px',
-    position:"center"}}>
+    position:"center"}}
+    onClick={handleSearch}>
+
 Search
 </Button>
 
