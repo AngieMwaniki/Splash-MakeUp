@@ -9,7 +9,7 @@
      <Box>
       <HeroBanner />
       <SearchProducts/>
-      <Products/>
+      <Produce/>
      </Box>
    )
  }
