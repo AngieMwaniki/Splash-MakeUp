@@ -20,7 +20,7 @@ const HeroBanner = () => {
             Pamper yourself with the most effective makeup products.
         </Typography>
     <Button  variant="contained" color="error" href="#exercises"  >Explore Products</Button>
-    <img src = {HeroBannerImage} alt="bannere" className='hero-banner-img' />
+    <img src = "HeroBannerImage" alt="bannere" className='hero-banner-img' />
     </Box>
   )
 }
